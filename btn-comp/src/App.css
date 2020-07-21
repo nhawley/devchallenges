@@ -1,0 +1,22 @@
+h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #4F4F4F;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 83px;
+  padding-right: 83px;
+}
+
+.btn-row {
+  display: flex;
+  justify-content: flex-start;
+}

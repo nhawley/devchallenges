@@ -1,0 +1,127 @@
+.btn-cont {
+  margin: 30px 0px;
+  margin-right: 80px;
+}
+
+.btn-name {
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  color: #333333;
+}
+
+button {
+  background: #E0E0E0;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  border-radius: 6px;
+  color: #3F3F3F;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  padding: 8px 16px;
+  border-width: 0px;
+  display: flex;
+  align-items: center;
+}
+
+button.sm {
+  padding: 6px 12px;
+}
+
+button.md {
+  padding: 8px 16px;
+}
+
+button.lg {
+  padding: 11px 22px;
+}
+
+button:hover:not([disabled]), button:focus:not([disabled]) {
+  background: #AEAEAE;
+}
+
+button:disabled {
+  color: #9E9E9E;
+}
+
+.outline {
+  background: #ffffff;
+  box-shadow: none;
+  border: 1px solid #3D5AFE;
+  color: #3D5AFE;
+}
+
+.outline:hover:not([disabled]), .outline:focus:not([disabled]) {
+  background: rgba(41, 98, 255, 0.1);
+}
+
+.text {
+  background: #ffffff;
+  box-shadow: none;
+  color: #3D5AFE;
+}
+
+.text:hover:not([disabled]), .text:focus:not([disabled]) {
+  background: rgba(41, 98, 255, 0.1);
+}
+
+.disShad, .icon {
+  background: #3D5AFE;
+  box-shadow: none;
+  color: #ffffff;
+}
+
+.disShad:hover:not([disabled]), .disShad:focus:not([disabled]), .icon:hover:not([disabled]), .icon:focus:not([disabled]) {
+  background: #3D5AFE;
+}
+
+.material-icons.left{
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.material-icons.right{
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+button.primary {
+  background: #2962FF;
+  box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+  color: #FFFFFF;
+}
+
+button.primary:hover:not([disabled]), button.primary:focus:not([disabled]) {
+  background: #0039CB;
+  box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+  color: #FFFFFF;
+}
+
+button.secondary {
+  background: #455A64;
+  box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+  color: #FFFFFF;
+}
+
+button.secondary:hover:not([disabled]), button.secondary:focus:not([disabled]) {
+  background: #1C313A;
+  box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+  color: #FFFFFF;
+}
+
+button.danger {
+  background: #D32F2F;
+  box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+  color: #FFFFFF;
+}
+
+button.danger:hover:not([disabled]), button.danger:focus:not([disabled]) {
+  background: #9A0007;
+  box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+  color: #FFFFFF;
+}
